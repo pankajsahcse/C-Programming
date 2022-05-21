@@ -2,9 +2,9 @@
 clrscr;
 int main() {
  int i=0;
-  printf("Enter a value");
  
-  while (i<60){
+ 
+  while (i<=60){
  printf("%d \n", i);
  i = i+1;
   }
