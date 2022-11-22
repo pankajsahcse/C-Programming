@@ -1,24 +1,25 @@
-#include<stdio.h>
-int main(){
-    int n,r,sum=0,temp;
-    printf("Enter the number :");
+#include <stdio.h>
+int main()
+{
+    int n, r, sum = 0, temp;
+    printf("Enter a number :");
     scanf("%d", &n);
-    temp=n;
+    temp = n;
+    while (n != 0)
+    {
+        r = n % 10;
+        sum = sum * 10 + r;
+        n = n / 10;
+    }
 
-    while (n>0)
+    if (sum == temp)
     {
-       r=n%10;
-       sum=sum*10+r;
-       n=n/10;
+        printf("The reverse or Palindrome no is =%d \n", temp);
+        printf("Its a Palindrome number");
     }
-    n=temp;
-    if (n==sum)
+    else
     {
-       printf("Its a pilindrome number");
-    }
-    else{
-        printf("Its not a pilindrome number");
+        printf("Not a palindrome number");
     }
     return 0;
-
 }
