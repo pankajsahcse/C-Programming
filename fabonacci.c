@@ -6,7 +6,7 @@ int main (){
 
     printf("Enter the number of element :");
     scanf("%d", &n);
-     printf("%d\n %d", n1,n2);
+  
 
     for ( i = 2; i <=n; i++)
     {
