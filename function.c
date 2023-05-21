@@ -59,23 +59,23 @@ int main(){
    switch (choice)
    {
    case 1:
-        Addition
-        printf("Sum of the two number is :%d", c);
+        Addition();
+       
        break;
 
        case 2:
-       Substraction
-        printf("Subtraction of the two number is :%d", c);
+       Substraction();
+       
        break;
 
        case 3:
-       multiplication
-        printf("Multiplication of the two number is :%d", c);
+       multiplication();
+       
        break;
 
        case 4:
-       dividing
-        printf("Dividing of the two number is :%d", c);
+       dividing();
+         break;
        
 
    
